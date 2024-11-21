@@ -1,0 +1,22 @@
+.slider_month {
+  width: 64%;
+  margin-right: 10%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.month_name {
+  padding: 2%;
+  border-radius: 20px;
+  margin: 0 25%;
+  background-color: var(--color-7);
+  font-family: "Lobster Two", cursive;
+  font-weight: 700;
+  font-size: 1.5rem;
+  color: var(--color-1);
+
+  text-align: center;
+  width: 30%;
+}

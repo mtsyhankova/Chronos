@@ -1,0 +1,11 @@
+.home_page_hp {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+.calendars_box_hp {
+  height: 150%;
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+}

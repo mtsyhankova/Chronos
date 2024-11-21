@@ -1,0 +1,38 @@
+.box_people_pl {
+  padding: 4% 3%;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 4% 0;
+}
+.box_avatar_people_pl {
+  width: 15%;
+  height: 15%;
+  border-radius: 50%;
+  background-color: burlywood;
+}
+.name_people_pl {
+  margin-left: 5%;
+  color: var(--color-1);
+  font-family: "Lobster Two", cursive;
+  font-weight: 700;
+  font-size: 1rem;
+}
+.owerflow_box_pl {
+  height: 300px;
+  overflow-y: scroll;
+}
+
+.owerflow_box_pl::-webkit-scrollbar {
+  display: none;
+}
+.dell_peopl_pl {
+  background-color: rgba(248, 73, 73, 0.703);
+  border: none;
+  border-radius: 50%;
+  margin: -15% 0 0 3.5%;
+}
+.activ_autor_pl {
+  background-color: rgba(255, 255, 255, 0.515);
+}

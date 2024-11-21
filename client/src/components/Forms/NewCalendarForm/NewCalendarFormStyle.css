@@ -1,0 +1,137 @@
+.newcal_page {
+  display: flex;
+  flex-direction: column;
+
+  position: absolute;
+  transition: 0.5s opacity, 0.5s visibility;
+  z-index: 3;
+
+  color: var(--color-3);
+  background-color: var(--color-6);
+
+  padding: 2rem;
+  top: 12vh;
+  left: 7vw;
+}
+
+.newcal_pagetitle {
+  display: flex;
+  align-self: center;
+  justify-content: center;
+
+  margin: 0rem 2rem 1.5rem 2rem;
+
+  font-family: "Lobster Two", cursive;
+  font-weight: 300;
+  font-size: 2.5rem;
+}
+
+.newcal_login {
+  display: flex;
+  justify-content: center;
+
+  margin-top: 1rem;
+}
+
+.newcal_email {
+  display: flex;
+  justify-content: center;
+
+  margin-top: 1rem;
+}
+
+.newcal_pass {
+  display: flex;
+  justify-content: center;
+
+  margin-top: 1rem;
+  padding-right: 2.9rem;
+}
+
+.newcal_passrep {
+  display: flex;
+  justify-content: center;
+
+  margin-top: 1rem;
+  padding-right: 9.8rem;
+}
+
+.newcal_span {
+  margin-right: 1rem;
+
+  font-family: "Lobster Two", cursive;
+  font-weight: 300;
+  font-size: 1.5rem;
+}
+
+.newcal_input {
+  padding-left: 1.2rem;
+  width: 12rem;
+
+  font-family: "Lobster Two", cursive;
+  font-weight: 300;
+  font-size: 1rem;
+}
+
+.newcal_button {
+  align-self: center;
+  padding: 0.8rem;
+  margin-top: 2rem;
+
+  width: 8rem;
+  border-radius: 2rem;
+  border: none;
+
+  background-color: var(--color-3);
+  color: white;
+
+  font-family: "Lobster Two", cursive;
+  font-weight: 300;
+  font-size: 1.3rem;
+}
+.newcal_button {
+  margin-top: 0;
+}
+.newcal_button:hover {
+  background-color: var(--color-4);
+}
+
+.aboba {
+  display: flex;
+  justify-content: center;
+}
+
+.newcal_error {
+  display: flex;
+  justify-content: center;
+
+  color: #d1556c;
+
+  margin-top: 1rem;
+  font-size: 1.5rem;
+}
+
+.newcal_link {
+  display: flex;
+  justify-content: center;
+
+  margin-top: 1rem;
+  font-size: 1.5rem;
+}
+
+.newcal_link a {
+  color: var(--color-3);
+  font-family: "Lobster Two", cursive;
+  font-weight: 300;
+  font-size: 1rem;
+}
+
+.hidden_form {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.shown_form {
+  opacity: 1;
+  visibility: visible;
+}

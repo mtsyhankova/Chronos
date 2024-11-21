@@ -1,0 +1,99 @@
+.days_list_dl {
+  overflow-y: scroll;
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  grid-template-rows: repeat(6, 1fr);
+  height: 70%;
+  grid-column-gap: 1%;
+  grid-row-gap: 2%;
+  text-align: end;
+  width: 82%;
+  margin: 0 4% 3% 4%;
+  border-radius: 0 0 20px 20px;
+  padding: 2% 3%;
+}
+.abobus {
+  grid-template-areas:
+    "time days1 days days days days days days days"
+    "time days1 days days days days days days days"
+    "time days1 days days days days days days days"
+    "time days1 days days days days days days days"
+    "time days1 days days days days days days days"
+    "time days1 days days days days days days days"
+    "time days1 days days days days days days days"
+    "time days1 days days days days days days days"
+    "time days1 days days days days days days days"
+    "time days1 days days days days days days days"
+    "time days1 days days days days days days days"
+    "time days1 days days days days days days days"
+    "time days1 days days days days days days days"
+    "time days1 days days days days days days days"
+    "time days1 days days days days days days days"
+    "time days1 days days days days days days days"
+    "time days1 days days days days days days days"
+    "time days1 days days days days days days days"
+    "time days1 days days days days days days days"
+    "time days1 days days days days days days days"
+    "time days1 days days days days days days days"
+    "time days1 days days days days days days days"
+    "time days1 days days days days days days days"
+    "time days1 days days days days days days days"
+    "time days1 days days days days days days days"
+    "time days1 days days days days days days days"
+    "time days1 days days days days days days days"
+    "time days1 days days days days days days days"
+    "time days1 days days days days days days days"
+    "time days1 days days days days days days days"
+    "time days1 days days days days days days days"
+    "time days1 days days days days days days days"
+    "time days1 days days days days days days days"
+    "time days1 days days days days days days days"
+    "time days1 days days days days days days days"
+    "time days1 days days days days days days days"
+    "time days1 days days days days days days days"
+    "time days1 days days days days days days days"
+    "time days1 days days days days days days days"
+    "time days1 days days days days days days days"
+    "time days1 days days days days days days days"
+    "time days1 days days days days days days days"
+    "time days1 days days days days days days days"
+    "time days1 days days days days days days days"
+    "time days1 days days days days days days days"
+    "time days1 days days days days days days days"
+    "time days1 days days days days days days days"
+    "time days1 days days days days days days days";
+
+  grid-template-columns: 0.5fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  padding: 2% 3% 2% 0;
+}
+.time_wt {
+  grid-area: time;
+}
+.day_wt {
+  grid-area: days1;
+}
+.days_list_dl::-webkit-scrollbar {
+  display: none;
+}
+.green_dl {
+  background-color: #dae5dd;
+}
+.pink_dl {
+  background-color: #fdd2c8;
+}
+.orange_dl {
+  background-color: #ed9e79;
+}
+.blue_dl {
+  background-color: #d4ddfa;
+}
+.list_day_box_dl {
+  display: grid;
+  grid-template-columns: repeat(58, 1fr);
+  grid-template-rows: repeat(auto, 1fr);
+}
+.vl {
+  border-left: 6px solid green;
+  height: 500px;
+}

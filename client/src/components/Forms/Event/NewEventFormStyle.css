@@ -1,0 +1,250 @@
+.overlay {
+  position: fixed;
+  z-index: 4;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: none;
+}
+
+.active {
+  display: block;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  background-color: rgba(14, 22, 39, 0.659);
+}
+
+.popap {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  background-color: var(--color-4);
+  padding: 2% 3%;
+  max-width: 30%;
+  overflow: auto;
+  border-radius: 20px;
+}
+
+.close_button_ef {
+  margin-left: 15px;
+  color: var(--color-1);
+  font-weight: bold;
+  float: right;
+  font-size: 26px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.column_ef {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.fonts,
+.column_ef input {
+  font-family: "Lobster Two", cursive;
+  font-weight: 700;
+  font-size: 0.7rem;
+}
+
+.column_ef input {
+  border-bottom: 1px solid var(--color-1);
+}
+
+.image_ef {
+  width: 5%;
+  height: auto;
+  margin: 0 3%;
+}
+
+.input_column_box_ef > div {
+  margin: 2% 0;
+}
+
+.header_ef {
+  width: 100%;
+  justify-content: space-between;
+}
+
+.header_ef h2 {
+  font-family: "Lobster Two", cursive;
+  font-weight: 700;
+  font-size: 1.5rem;
+  margin-left: 3%;
+}
+
+.input_column_box_ef {
+  display: flex;
+  flex-direction: column;
+  margin: 3% 0 3% 6%;
+}
+
+.buttons_ef {
+  justify-content: end;
+}
+
+.buttons_ef button,
+.buttons_ef a {
+  border: none;
+  background-color: var(--color-1);
+  color: var(--color-6);
+  padding: 2% 3%;
+  border-radius: 20px;
+  margin-left: 4%;
+  font-family: "Lobster Two", cursive;
+  font-weight: 700;
+  font-size: 0.7rem;
+}
+
+.time_box_enterval_ef {
+  width: 20%;
+}
+
+.aa_ef {
+  margin: 0 4%;
+}
+
+.date_input_ef {
+  width: 100%;
+  margin-right: 10%;
+}
+
+.event_form_dropdown {
+  height: 20vh;
+  overflow-y: scroll;
+  font-family: "Lobster Two", cursive;
+  font-weight: 300;
+  font-size: 1rem;
+  transition: 0.5s opacity, 0.55s visibility;
+  position: absolute;
+  top: 47%;
+  background-color: rgba(77, 82, 82, 0.484);
+  z-index: 5;
+}
+
+.event_form_time {
+  color: var(--color-1);
+  text-decoration: none;
+  background-color: var(--color-7);
+  padding: 0.5vw;
+
+  transition: all 0.3s ease;
+}
+
+.event_form_time:hover {
+  background-color: var(--color-8);
+}
+
+.remind {
+  height: 25%;
+  top: 73%;
+}
+/* ---------------------events--------------------------------*/
+.input_row_box_ef {
+  display: flex;
+  flex-direction: row;
+  margin: 3% 0 3% 6%;
+}
+.aaaa {
+  padding: 1% 4% 5% 4%;
+  background-color: var(--color-5);
+  height: 90%;
+  overflow: hidden;
+}
+#trigger {
+  display: none;
+}
+.checker {
+  background-image: url(../../../assets/calendar/FormEvent/open_lock.png);
+  background-size: auto 100%;
+  width: 30px;
+  height: 30px;
+  background-repeat: no-repeat;
+}
+#trigger:checked + .checker {
+  background-image: url(../../../assets/calendar/FormEvent/lock.png);
+}
+.header_esf {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: flex-end;
+}
+.header_esf button {
+  width: 10%;
+  margin: 0 5%;
+  background-color: var(--color-1);
+  padding: 0.5%;
+  border-radius: 20px;
+  color: var(--color-7);
+  font-family: "Lobster Two", cursive;
+  font-weight: 700;
+  font-size: 1rem;
+}
+.remind_esf {
+  width: 20%;
+}
+.image_evf {
+  width: 12%;
+  margin-right: 5%;
+}
+.fonts_evs {
+  color: var(--color-1);
+  font-size: 1.2rem;
+  margin-right: 1.5%;
+}
+.date_input_evf {
+  width: 100%;
+  margin-right: 5%;
+}
+.input_row_box_ef,
+.inf_esf {
+  font-family: "Lobster Two", cursive;
+  font-weight: 700;
+  font-size: 1rem;
+  color: var(--color-1);
+}
+.inf_esf {
+  margin: 2% 0;
+  font-size: 1.5rem;
+  text-align: center;
+}
+.arrow_esf {
+  width: 15%;
+}
+.lable_type_esf,
+.lable_cal_esf {
+  width: 40%;
+  margin-right: 5%;
+}
+.lable_type_esf {
+  margin-left: 4%;
+  width: 70%;
+}
+.image_esf {
+  width: 2.5%;
+  margin: 0 1.5%;
+}
+.cal_and_type {
+  width: 200%;
+}
+.input_box_esf div {
+  margin: 1% 0;
+}
+.text_data_esf {
+  width: 30%;
+}
+.data_esf {
+  width: 45%;
+}
+.all_day_esf {
+  margin-left: 5%;
+}

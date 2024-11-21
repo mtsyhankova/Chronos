@@ -1,0 +1,8 @@
+.calendars_box {
+  width: 7%;
+  height: 120%;
+  background-color: var(--color-4);
+}
+.calendars_list_box {
+  margin-top: 65%;
+}

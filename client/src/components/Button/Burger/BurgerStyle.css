@@ -1,0 +1,98 @@
+.burger_icon {
+  width: 35px;
+  height: 30px;
+  margin: 10px 10px;
+  position: relative;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.burger_icon span {
+  background-color: #fff;
+  position: absolute;
+  border-radius: 2px;
+  transition: 0.3s cubic-bezier(0.8, 0.5, 0.2, 1.4);
+  width: 100%;
+  height: 4px;
+}
+
+.burger_icon span:nth-child(1) {
+  top: 0px;
+  left: 0px;
+}
+
+.burger_icon span:nth-child(2) {
+  top: 13px;
+  left: 0px;
+}
+
+.burger_icon span:nth-child(3) {
+  bottom: 0px;
+  left: 0px;
+}
+
+.burger_icon:not(.open):hover span:nth-child(1) {
+  transform: scaleY(1.2);
+  left: -5px;
+}
+
+.burger_icon:not(.open):hover span:nth-child(2) {
+  transform: rotate(5deg) scaleY(1.1);
+}
+
+.burger_icon:not(.open):hover span:nth-child(3) {
+  transform: scaleY(1.2);
+  left: 5px;
+}
+
+.burger_icon.open span:nth-child(1) {
+  transform: rotate(45deg) scaleX(0.7);
+  top: 13px;
+  left: -8px;
+}
+
+.burger_icon.open span:nth-child(2) {
+  transform: scale(0);
+  transition-duration: 50ms;
+}
+
+.burger_icon.open span:nth-child(3) {
+  transform: rotate(-45deg) scaleX(0.7);
+  top: 13px;
+  left: 7px;
+}
+
+.burger_dropdown {
+  display: flex;
+  flex-direction: column;
+
+  font-family: "Lobster Two", cursive;
+  font-weight: 300;
+  font-size: 1rem;
+
+  transition: 0.5s opacity, 0.5s visibility;
+
+  position: absolute;
+  top: 7.4vh;
+  right: 0.1vw;
+  z-index: 2;
+}
+
+.burger_list_item {
+  display: flex;
+  align-items: center;
+
+  color: var(--color-6);
+  text-decoration: none;
+  background-color: #a6a9c8e4;
+  padding: 1rem 2rem 1rem 2rem;
+
+  height: 3vh;
+  width: 100px;
+
+  transition: all 0.3s ease;
+}
+
+.burger_list_item:hover {
+  background-color: #796ea8ea;
+}

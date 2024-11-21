@@ -1,0 +1,22 @@
+.settings_button {
+  display: flex;
+  position: fixed;
+  bottom: 5px;
+  left: 5px;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--color-3);
+  padding: 1%;
+  width: 5%;
+  height: 5%;
+  border-radius: 20px;
+  color: var(--color-1);
+  transition: 0.5s background-color;
+}
+.event_button:hover {
+  background-color: var(--color-1);
+  color: var(--color-5);
+}
+.event_button_img {
+  width: 55%;
+}

@@ -1,0 +1,76 @@
+.day_box_db {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(240, 255, 255, 0.636);
+  padding: 5%;
+  border-radius: 5px;
+  height: 75%;
+}
+
+.dark {
+  background-color: rgba(63, 74, 74, 0.21);
+}
+
+.day_db {
+  text-align: center;
+  user-select: none;
+  width: 15%;
+  padding: 5%;
+  border-radius: 50%;
+  font-family: "Lobster Two", cursive;
+  font-weight: 300;
+  font-size: 1rem;
+}
+
+.active_day_db {
+  background-color: rgb(118, 175, 118);
+}
+
+.day_box_db:hover {
+  box-shadow: 10px 5px 5px rgba(48, 44, 44, 0.678);
+  border-radius: 5px;
+}
+
+.green_db:hover {
+  background-color: #648050;
+}
+
+.pink_db:hover {
+  background-color: #da7f6b;
+}
+
+.orange_db:hover {
+  background-color: #ae5a32;
+}
+
+.blue_db:hover {
+  background-color: #7180b1;
+}
+
+.days_number {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.events_number {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  
+  font-family: "Lobster Two", cursive;
+  font-weight: 300;
+  font-size: 0.7rem;
+
+  padding: 5%;
+}
+
+.day_db_remind_img {
+  width: 20%;
+  margin-bottom: 7%;
+}
+
+.day_db_p {
+  margin-left: 4%;
+}

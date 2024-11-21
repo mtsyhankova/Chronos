@@ -1,0 +1,38 @@
+.calendar_box_c {
+  width: 93%;
+  height: 60%;
+  background-color: rgb(255, 255, 255);
+}
+
+.header_calendar_c {
+  align-items: center;
+  background-color: var(--color-4);
+  width: 76%;
+  display: flex;
+  flex-direction: row;
+  margin: 3% 9%;
+  padding: 0.5% 1.5%;
+  border-radius: 30px;
+  transition: 0.5s background-image;
+}
+.spring {
+  background-image: url("../../assets/1.jpg");
+  background-size: 100%;
+}
+.winter {
+  background-image: url("../../assets/6.jpg");
+  background-size: 100%;
+}
+.fall {
+  background-image: url("../../assets/4.jpg");
+  background-size: 100%;
+}
+.summer {
+  background-image: url("../../assets/2.jpg");
+  background-size: 100%;
+}
+
+.box_days_c {
+  width: 92%;
+  margin: 3% 4%;
+}

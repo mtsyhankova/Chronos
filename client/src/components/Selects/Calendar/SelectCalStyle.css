@@ -1,0 +1,86 @@
+.year_select {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--color-7);
+  padding: 1vh 0 1vh 0;
+  color: var(--color-1);
+  width: 20%;
+  margin: 0 0 0 4%;
+  border-radius: 20px;
+  transition: 0.5s background-color;
+}
+
+.year_select:hover {
+  background-color: var(--color-8);
+}
+
+.year_select p {
+  font-family: "Lobster Two", cursive;
+  font-weight: 700;
+  font-size: 1rem;
+  margin-right: 1.3vw;
+}
+
+.year_dropdown {
+  height: 44vh;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  overflow-y: scroll;
+  font-family: "Lobster Two", cursive;
+  font-weight: 300;
+  font-size: 1rem;
+  transition: 0.5s opacity, 0.55s visibility;
+  position: absolute;
+  top: 28.6%;
+  background-color: rgba(77, 82, 82, 0.484);
+}
+
+.hidden {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.shown {
+  opacity: 1;
+  visibility: visible;
+}
+
+.year {
+  color: var(--color-1);
+  text-decoration: none;
+  background-color: var(--color-7);
+  padding: 1rem 2rem 1rem 2rem;
+
+  transition: all 0.3s ease;
+}
+
+.year:hover {
+  background-color: var(--color-8);
+}
+
+.current {
+  background-color: var(--color-8);
+}
+
+.year_dropdown::-webkit-scrollbar {
+  width: 15px;
+}
+
+.year_dropdown::-webkit-scrollbar-thumb {
+  background-color: var(--color-2);
+  border-radius: 20px;
+}
+
+.type {
+  display: flex;
+  flex-direction: column;
+  height: 21vh;
+  font-family: "Lobster Two", cursive;
+  font-weight: 300;
+  font-size: 1rem;
+  transition: 0.5s opacity, 0.55s visibility;
+  position: absolute;
+  top: 28.6%;
+  background-color: rgba(77, 82, 82, 0.484);
+}

@@ -1,0 +1,58 @@
+.name_day_b {
+  display: flex;
+  flex-direction: row;
+  user-select: none;
+  width: 82%;
+  margin: 3% 4% 0 4%;
+  border-radius: 20px 20px 0 0;
+  padding: 2% 3%;
+  justify-content: space-between;
+}
+
+.green_b {
+  background-color: #c1cf9e;
+}
+.pink_b {
+  background-color: #f59079;
+}
+.orange_b {
+  background-color: chocolate;
+}
+.blue_b {
+  background-color: #8a9bd0;
+}
+
+.days_ndb {
+  width: 100%;
+  text-align: center;
+  height: 100%;
+  font-family: "Lobster Two", cursive;
+  font-weight: 700;
+  font-size: 1rem;
+  color: var(--color-1);
+}
+
+.arrow_ndb {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.arrow_ndb div {
+  font-family: "Lobster Two", cursive;
+  font-weight: 700;
+  font-size: 1rem;
+}
+.day_box_ndb {
+  align-items: center;
+  padding: 0.9% 3%;
+}
+.right_arr_ndb,
+.left_arr_ndb {
+  width: 80%;
+}
+.left_arr_ndb {
+  display: flex;
+  justify-content: flex-end;
+}

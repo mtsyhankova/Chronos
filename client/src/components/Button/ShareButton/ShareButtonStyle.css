@@ -1,0 +1,10 @@
+.buttom_share {
+  width: 80%;
+  background-color: var(--color-3);
+  border-radius: 20px;
+  border: none;
+  padding: 2% 0;
+  font-family: "Lobster Two", cursive;
+  font-weight: 300;
+  font-size: 1rem;
+}
